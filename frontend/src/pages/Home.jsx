@@ -24,20 +24,18 @@ export const Home = () => {
                         <div className='m-10 flex gap-20'>
                             <div className="bg-white">
                             <form action="" className='bg-red-500 w-1/2 m-4'>
-                            <div className='bg-red-500 m-5 p-2'>Filter by category:
-                            <select className=''>
+                            <div className=''>Filter by category
+                            <select className='w-35 h-8'>
                              <option></option>
-                             <option>All</option>
                              <option>Frontend</option>
                              <option>Backend</option>
                              <option>Devops</option>
                             <option>Product Manager</option></select></div></form>
 
                             <form action="" className='bg-green-500 w-1/2'>
-                            <div className='m-8'>Filter by location
-                            <select className=''>
+                            <div className=''>Filter by location
+                            <select className='w-15 h-8'>
                              <option></option>
-                             <option>All</option>
                              <option>Remote</option>
                              <option>Onsite</option>
                              <option>Hybrid</option>
