@@ -16,8 +16,8 @@ function Header() {
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0">
-        <div className="md:px-6 py-4 py-7 md:flex justify-between items-center bg-white">
-    <div className="md:px-10 py-6 px-7 flex text-2xl items-center gap-2">
+        <div className="md:px-6 md:flex justify-between items-center bg-white">
+    <div className="md:px-10 py-1.5 px-1.5 flex text-2xl items-center gap-2">
         <img src={img} alt="logo" className="w-20 h-20 rounded-full"/>
        <span className='font-bold'>Tracking System</span>
   </div>
