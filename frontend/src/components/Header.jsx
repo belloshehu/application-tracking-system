@@ -35,7 +35,7 @@ function Header() {
         <li key={link.path} className=' font-semibold my-7 md:my-0 md:ml-8'>
             <a href={link.path}>{link.name}</a>
         </li>))}
-        <button className='btn bg-blue-600 text-white py-1 px-3 md:ml-8 rounded md:static'>LOGIN</button>
+        <button className='btn bg-gray-600 text-white py-1 px-3 md:ml-8 rounded md:static'>LOGIN</button>
    </ul>
   </div>
     </div>
